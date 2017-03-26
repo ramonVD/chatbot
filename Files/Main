@@ -1,0 +1,30 @@
+
+package chatbot;
+
+import java.util.Scanner;
+
+
+public class ChatBot {
+
+    
+    public static void main(String[] args) {
+        
+        String entrada="FalloEntrada",salida="FalloSalida";
+        
+        System.out.println("Bienvenid@ a Chat el Bot, escribe a continuación lo que quieras.");
+        System.out.println("");
+        
+        Scanner sc= new Scanner(System.in);
+        entrada=sc.next().toLowerCase();
+        
+        if(entrada.equals("hola")){
+            salida=entrada;
+            System.out.println(salida);
+        }else{
+            salida="Empezare saludando yo";
+            System.out.println("Hola,mi nombre es Chat Bot");
+        }
+        
+    }
+    
+}
