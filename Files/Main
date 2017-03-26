@@ -1,4 +1,5 @@
 
+
 package chatbot;
 
 import java.util.Scanner;
@@ -22,7 +23,7 @@ public class ChatBot {
             System.out.println(salida);
         }else{
             salida="Empezare saludando yo";
-            System.out.println("Hola,mi nombre es Chat Bot");
+            System.out.println(salida+". Hola,mi nombre es Chat Bot");
         }
         
     }
